@@ -13,3 +13,17 @@ function loginValid() {
   }
 }
 btnEnter.addEventListener("click", loginValid);
+
+/* Validacao do botao para o requisito 18, refencia : https://www.w3schools.com/howto/howto_js_display_checkbox_text.asp*/
+
+const checkboxOk = document.getElementById("agreement");
+const ifChecked = document.getElementById("submit-btn");
+
+function formChecked() {
+  if (checkboxOk.checked === true) {
+    ifChecked.disabled = false;
+  } else {
+    ifChecked.disabled = true;
+  }
+}
+formChecked();
