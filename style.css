@@ -1,3 +1,14 @@
+/* Requsito 3 estilizacao */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(50, 167, 145);
+  height: 60px;
+  padding: 8px;
+}
+
 /* Requisito 5, 6 e 7 */
 
 .main-content {
