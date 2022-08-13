@@ -45,7 +45,30 @@
     </header>
     <!-- Requsito 5 -->
     <main class="main-content">
-      <form action="" method="get" id="evaluation-form"></form>
+      <form action="" method="get" id="evaluation-form">
+        <!-- Requisito 8 e 9 -->
+        <div id="complete-name">
+          <input type="text" id="input-name" placeholder="Nome" required />
+          <input
+            type="text"
+            id="input-lastname"
+            placeholder="Sobrenome"
+            required
+          />
+        </div>
+        <div id="email-house">
+          <input id="input-email" placeholder="Email" required />
+        </div>
+        <div>
+          <label for="house" id="house-content">Casa</label>
+          <select name="house" id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </div>
+      </form>
       <!-- Requisito 7 -->
       <img
         src="images/trybewarts-colored.svg"
