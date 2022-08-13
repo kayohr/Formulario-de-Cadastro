@@ -1,4 +1,43 @@
-/* Requsito 3 estilizacao */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(239, 239, 239, 255);
+}
+
+input {
+  border: 0;
+  outline: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(60, 64, 74, 255);
+  color: white;
+  height: 30px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  margin: 22%;
+  padding: 10px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -6,17 +45,88 @@
   background-color: rgb(50, 167, 145);
   height: 60px;
   padding: 8px;
+  margin-bottom: 10px;
 }
 
-/* Requisito 5, 6 e 7 */
+.trybewarts-login {
+  display: flex;
+}
+
+.btn-enter {
+  display: flex;
+  width: 192px;
+  background-color: rgba(78, 44, 131, 255);
+  color: white;
+  outline: 0;
+  border: 0;
+  margin: 4px;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  align-self: center;
+}
+
+#input-name , #input-email , #input-lastname {
+  border-radius: 5px;
+  font-style: italic;
+}
+
+.input-email , .input-password {
+  margin: 4px;
+  padding: 2px;
+  border-radius: 5px;
+  font-style: italic;
+}
+
 .main-content {
   display: flex;
-  margin-left: 15%;
+  margin-left: 5%;
 }
 
-#evaluation-form {
+#complete-name , #email-house {
   display: flex;
-  height: 624px;
-  width: 675px;
+  justify-content: space-between;
+  margin: 2px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin: 0 5%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#label-family-container , #label-contents {
+  display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+  margin: 1% 0;
+}
+
+#label-rate-options , #label-infos {
+  margin: 2% 0;
+}
+
+#textarea {
+  outline: none;
+  border: 1px solid rgba(78, 44, 131, 255);
+}
+
+.textarea-content-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-btn {
+  border: 0;
+  outline: 0;
+  margin: 1% 0;
+  background-color: rgba(78, 44, 131, 255);
+  color: white;
+  flex-grow: 1;
 }

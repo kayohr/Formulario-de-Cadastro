@@ -27,3 +27,15 @@ function formChecked() {
   }
 }
 formChecked();
+
+// Referencia requisito 20 https://stackoverflow.com/questions/14086398/count-textarea-characters //
+
+function textSize() {
+  const textArea = document.querySelector('#textarea');
+  const counter = document.querySelector('#counter');
+  const numberChar = parseInt(counter.innerText, 10);
+  textArea.addEventListener('input', () => {
+    counter.innerText = numberChar - textArea.value.length;
+  });
+}
+textSize();

@@ -114,61 +114,65 @@
             </div>
           </div>
           <div id="label-contents">
-            <label id="label-content"
-              >Qual conteúdo você está com mais vontade de aprender?"</label
-            >
+            <label id="label-content">Qual conteúdo você está com mais vontade de aprender?"</label>
             <div class="label-itens">
-              <div class="label-itens-1">
+              <div>
                 <input
                   type="checkbox"
                   name="label-item"
                   id="label-item-1"
+                  class="subject"
                   value="HoFs"
                 />
                 <label for="label-item-1">HoFs</label>
               </div>
-              <div class="label-itens-2">
+              <div>
                 <input
                   type="checkbox"
                   name="label-item"
                   id="label-item-2"
+                  class="subject"
                   value="Jest"
                 />
                 <label for="label-item-2">Jest</label>
               </div>
-              <div class="label-itens-3">
+              <div>
                 <input
                   type="checkbox"
                   name="label-item"
                   id="label-item-3"
                   value="Promises"
+                  class="subject"
                 />
                 <label for="label-item-3">Promises</label>
               </div>
-              <div class="label-itens-4">
+              <div>
                 <input
                   type="checkbox"
                   name="label-item"
                   id="label-item-4"
                   value="React"
+                  class="subject"
                 />
                 <label for="label-item-4">React</label>
               </div>
-              <div class="label-itens-5">
+              <div>
                 <input
                   type="checkbox"
                   name="label-item"
                   id="label-item-5"
                   value="SQL"
+                  class="subject"
                 />
                 <label for="label-item-5">SQL</label>
               </div>
-              <div class="label-itens-6">
+              <div>
                 <input
                   type="checkbox"
                   name="label-item"
                   id="label-item-6"
                   value="Python"
+                  class="subject"
                 />
                 <label for="label-item-6">Python</label>
               </div>
@@ -179,9 +183,7 @@
         <!-- Requisito 14 -->
 
         <div id="label-rate-container">
-          <label for="rate-option" id="label-rate"
-            >Como você avalia a Trybewarts?</label
-          >
+          <label for="rate-option" id="label-rate">Como você avalia a Trybewarts?</label>
           <label
             id="label-rate-options"
             name="label-rate-option"
@@ -264,6 +266,8 @@
               style="resize: none"
               maxlength="500"
             ></textarea>
+            <!-- Requisito 20 -->
+            <div id="counter">500 caracteres</div>
           </div>
         </div>
         <!-- Requsisto 16, referencia do elemento onchange refencia: https://www.w3schools.com/jsref/event_onchange.asp  -->
@@ -280,9 +284,7 @@
           <!-- Requisito 17 -->
           
           <div class="flex-container">
-            <button id="submit-btn" class="btn btn-info" type="submit" disabled>
-              Enviar
-            </button>
+            <button id="submit-btn" type="submit" disabled>Enviar</button>
           </div>
       </form>
       <!-- Requisito 7 -->
