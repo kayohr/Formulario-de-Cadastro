@@ -1,5 +1,4 @@
 /* Requsito 3 estilizacao */
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -10,11 +9,11 @@
 }
 
 /* Requisito 5, 6 e 7 */
-
 .main-content {
   display: flex;
   margin-left: 15%;
 }
+
 #evaluation-form {
   display: flex;
   height: 624px;
